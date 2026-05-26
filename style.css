@@ -1,5 +1,8 @@
 body {
     font-family: roboto, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -10,10 +13,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .header {
     display: flex;
     gap: 28px;
+    font-size: 18px;
+    color: black;
 }
+
 /* Hero Section */
 .hero {
     background-color: #1f2937;
@@ -21,11 +28,12 @@ a {
     font-size: 18px;
 }
 
-.hero-body p {
+.hero-body h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
+
 
 .hero button {
     padding: 8px;
@@ -52,4 +60,10 @@ a {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+}
+
+/* Footer Section*/
+.footer {
+    background-color: #3882f6;
+    color: #E5E7EB;
 }
