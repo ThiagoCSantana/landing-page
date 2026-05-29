@@ -62,8 +62,17 @@ a {
     color: #1f2937;
 }
 
-/* Footer Section*/
-.footer {
+/* callToAction Section*/
+.callToAction {
+    display: flex;
     background-color: #3882f6;
-    color: #E5E7EB;
+    color: white;
+    padding: 48px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    align-self: center;
+    gap: 52px;
+}
+.callToAction button {
+    border-radius: 15px;
 }
