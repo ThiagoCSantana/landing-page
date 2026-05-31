@@ -47,7 +47,26 @@ a {
 
 /* Info Section */
 .info {
+    padding: 48px;
+    
+}
 
+.info h1 {
+    font-weight: 900;
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    max-width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
 }
 
 /* Quote Section*/
