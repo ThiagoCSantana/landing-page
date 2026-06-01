@@ -3,6 +3,8 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 li {
@@ -13,12 +15,22 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
+img {
+    width: 200px;
+}
 .header {
     display: flex;
     gap: 28px;
     font-size: 18px;
-    color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 24px 48px;
+}
+.right-links {
+    display: flex;
+    gap: 28px;
+    font-size: 18px;
+    color: white;
 }
 
 /* Hero Section */
@@ -26,7 +38,17 @@ a {
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
+
 }
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+
+.hero-body, .hero-image { flex: 1;}
 
 .hero-body h1 {
     font-size: 48px;
@@ -35,17 +57,30 @@ a {
 }
 
 
-.hero button {
-    padding: 8px;
+.hero-body button {
+    padding: 10px 22px;
     background-color: #3882f6;
-    border-radius: 8px;
+    border-radius: 6px;
     color: #F9FAF8;
     outline: none;
     box-sizing: none;
     border: none;
+    justify-content: center;
+
+}
+.hero-image img {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Info Section */
+.info img {
+    width: 100px;
+    height: 100px;
+}
 .info {
     padding: 48px;
     
@@ -73,25 +108,56 @@ a {
 .quote {
     background-color: #E5E7EB;
     padding: 24px;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#quote-content {
+.quote-content {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    width: 70vh;
+}
+
+.quote-author {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 /* callToAction Section*/
 .callToAction {
+    min-width: 50vh;
     display: flex;
     background-color: #3882f6;
     color: white;
     padding: 48px;
-    border-radius: 16px;
+    border-radius: 8px;
     box-sizing: border-box;
     align-self: center;
+    justify-content: center;
     gap: 52px;
+    margin: 48  px;
 }
+
 .callToAction button {
     border-radius: 15px;
+    background-color: #3882f6   ;
+    width: 150px;
+    height: 50px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+
+}
+
+/*Footer Section*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    
 }
