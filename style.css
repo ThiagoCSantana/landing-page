@@ -45,7 +45,7 @@ img {
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
-
+    padding: 24px 64px;
 }
 
 .hero-container {
@@ -128,6 +128,7 @@ img {
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
+    padding: 16px 0;
     width: 70vh;
 }
 
@@ -136,7 +137,7 @@ img {
     font-weight: 900;
     display: flex;
     align-self: flex-end;
-    padding: 24px;
+    width: 70vh;
 }
 
 /* callToAction Section*/
